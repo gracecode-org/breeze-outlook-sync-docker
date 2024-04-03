@@ -1,0 +1,3 @@
+
+# The image name to build
+IMAGE="myimage:latest"

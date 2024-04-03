@@ -1,0 +1,29 @@
+{
+    "LogPath" : "/bos/logs",
+    "LogLevel" : 2,
+    "MaxLogSize": 20971520,
+    "MaxLogFiles": 25,
+    "CachePath" : "/bos/cache",
+    "Exchange": {
+        "Connection": {
+            "URI": "https://outlook.office365.com/powershell-liveid/",
+            "certFilePath": "/bos/config/auth-cert.pfx",
+            "certFilePassword": "<pfx-password>",
+            "appId": "app-id",
+            "organization": "organization"
+        },
+        "groupEmailDomain": "email-domain"
+    },
+    "Breeze": {
+        "Connection": {
+            "URI": "https://<mysite>.breezechms.com",
+            "APIKey": "apikey"
+        },
+        "SyncSettings": {
+            "TagsToSync": [],
+            "TagsToSkip": [],
+            "MaxTagPersons": 100
+        }
+    }
+
+}
